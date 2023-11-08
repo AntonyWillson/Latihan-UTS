@@ -1,9 +1,10 @@
 package model;
 
 public class Paus extends Mamalia {
-	final int jumlahSiripn = 2;
+	public final int jumlahSiripn;
 	public Paus(double berat, int umur) {
 		super(berat, umur);
+		this.jumlahSiripn = 4;
 		// TODO Auto-generated constructor stub
 	}
 	@Override
