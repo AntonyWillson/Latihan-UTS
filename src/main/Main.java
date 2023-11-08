@@ -9,7 +9,9 @@ public class Main {
 		Kerbau k = new Kerbau(20, 2);
 		Paus p = new Paus(45, 4);
 		
+		System.out.println("Paus itu umur " +p.getUmur() +  " dan memiliki berat " + p.getBerat());
 		p.Makan();
+		System.out.println("Kerbau itu umur " +k.getUmur() +  " dan memiliki berat " + k.getBerat());
 		k.Makan();
 	}
 	public static void main(String[] args) {
