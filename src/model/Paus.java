@@ -8,7 +8,7 @@ public class Paus extends Mamalia {
 	}
 	@Override
 	public void Makan() {
-		System.out.println("Karnivora");
+		System.out.println(" Paus itu Karnivora");
 		
 	}
 	@Override

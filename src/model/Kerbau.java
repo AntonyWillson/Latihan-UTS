@@ -17,7 +17,7 @@ public class Kerbau extends Mamalia {
 
 	@Override
 	public void Makan() {
-	System.out.println("Herbivora");
+	System.out.println("Kerbau itu Herbivora");
 		
 	}
 
